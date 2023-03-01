@@ -1,0 +1,156 @@
+
+
+p {
+    font-size: 14px;
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+.p2,
+.p3 {
+    color: #AAAAAA;
+    font-size: 1, 2rem;
+}
+
+
+
+
+.thumbnail {
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 10%;
+}
+
+.text {
+    display: inline-block;
+}
+
+
+.darkblue {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    margin-bottom: 5px;
+}
+
+
+
+.yellow {
+
+    margin-left: 4%;
+}
+
+.red {
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    min-width: 250px;
+}
+
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.black {
+    display: grid;
+    column-gap: 1%;
+    row-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+/*---------------------------------------*/
+.left{
+
+    display: flex;
+    height: 40px;
+    width: 300px;
+}
+/*---------------------------------------*/
+.middle{
+
+    flex: 1;
+    height: 40px;
+}
+/*---------------------------------------*/
+.right{
+
+    height: 40px;
+    width: 300px;
+}
+/*---------------------------------------*/
+.header{
+    border-style: solid;
+    height: 56px;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    border: transparent;
+    background-color: black;
+    position: fixed;
+    top: 0;
+
+}
+/*---------------------------------------*/
+.search-box{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: transparent;
+    padding: 0 0 0 20px;
+    max-width: 600px;
+    border: rgb(53, 53, 53) 0.5px solid;
+    border-radius: 200px 0px 0px 200px;
+    color: white;
+}
+
+.search:focus{
+    border: rgb(255, 255, 255) 2px solid;
+    color: white;
+    outline: none;
+}
+
+input::placeholder{
+    color: #AAAAAA;
+}
+.search-b{
+    color: white;
+    background-color: #414040;
+    width: 64px;
+    border: none;
+    border-radius: 0px 200px 200px 0px;
+}
+.search-b:hover{
+    cursor: pointer;
+}
+
+.fix{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    height: 56px;
+}
